@@ -1,3 +1,3 @@
 # This is my portfolio.
-Thanks for viewing!
+Thanks for viewing!<br>
 (c) integal.net
