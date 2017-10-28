@@ -1,2 +1,2 @@
-# this is my portfolio.
+# This is my portfolio.
 Thanks for viweing!
