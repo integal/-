@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bitter:400,700" rel="stylesheet">
+</head>
+<body id="contact">
+<!--  header始まり-->
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="images/logo.png" alt="SNAPPERS">
+      </a>
+    </div>
+      <nav>
+        <ul class="global-nav">
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
+<!--  header終わり-->
+  <div id="wrap">
+  <div class="content">
+    <div class="main-center">
+      <h1>Contact</h1>
+      <p>SNAPPERSへのお問い合わせフォームです。実際には動作しないのでご注意ください。</p>
+      <section class="access clearfix">
+        <h2 class="icon">Access</h2>
+        <table>
+          <tr>
+            <th>所在地</th>
+            <td>North Pole H0H 0H0</td>
+          </tr>
+          <tr>
+            <th>電車でのアクセス</th>
+            <td>不可能です。</td>
+          </tr>
+          <tr>
+            <th>お車でのアクセス</th>
+            <td>不可能です。</td>
+          </tr>
+        </table>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d65253915.54924347!2d-88.59366771815814!3d3.403054949462123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4e753c9b20485bfd%3A0x4e5f0d379253c31!2z5YyX5qW1!5e0!3m2!1sja!2sjp!4v1509242923297" width="460" height="220" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </section>
+      <section>
+        <h2 class="icon">Contact form</h2>
+        <div class="form">
+          <form>
+            <dl>
+              <dt><span class="required">お名前</span></dt>
+              <dd><input type="text" name="name" class="name" required></dd>
+              <dt><span class="required">メールアドレス</span></dt>
+              <dd><input type="email" name="email" class="email" required></dd>
+              <dt>電話番号</dt>
+              <dd><input type="tel" name="tel" class="tel"></dd>
+              <dt>お問い合わせ種別</dt>
+              <dd>
+                <select name="type" class="type">
+                  <option value="ask">質問</option>
+                  <option value="Bug">バグ報告</option>
+                  <option value="otherQuestion">その他のお問い合わせ</option>
+                </select>
+              </dd>
+              <dt>ご希望の連絡先</dt>
+              <dd>
+                <input type="radio" name="contact" value="Email">Email
+                <input type="radio" name="contact" value="tel">お電話
+              </dd>
+              <dt>メッセージ</dt>
+              <dd><textarea name="message" class="message"></textarea></dd>
+            </dl>
+            <button type="submit" class="btn">送信</button>
+          </form>
+          <div class="attention">
+            <p>※「<span class="required"></span>」のついている項目は必須項目です。</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  </div>
+<!--  footer始まり-->
+  <footer>
+    <small>(c)2017 integal.net.</small>
+  </footer>
+<!--  footer終わり-->
+</body>
+</html>
